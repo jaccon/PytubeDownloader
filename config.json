@@ -1,0 +1,17 @@
+{
+  "outputPath": "./downloads",
+  "cookiesPath": "cookies.txt",
+  "useProxy": false,
+  "outputMp3": "./convertedMP3",
+  "useMultiThreading": true,
+  "numThreads": 10,
+  "ytDlpOptions": {
+      "outtmpl": "./downloads/%(title)s.%(ext)s",
+      "format": "best",
+      "noplaylist": true,
+      "quiet": false,
+      "age_limit": 18,
+      "cookies": "cookies.txt",
+      "progress_hooks": []
+  }
+}

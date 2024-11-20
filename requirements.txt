@@ -1,3 +1,3 @@
-yt-dlp
-moviepy
 tqdm
+pydub
+ffmpeg
